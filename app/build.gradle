@@ -33,11 +33,8 @@ android {
 }
 
 dependencies {
-    implementation("com.github.chwltd:ChLibrary:1.0.0")
+    implementation("com.github.chwltd:ChLibrary:0.0.1")
     implementation libs.androidx.core.ktx
     implementation libs.androidx.appcompat
     implementation libs.material
-    testImplementation libs.junit
-    androidTestImplementation libs.androidx.junit
-    androidTestImplementation libs.androidx.espresso.core
 }
